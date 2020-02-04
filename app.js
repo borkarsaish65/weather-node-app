@@ -21,3 +21,6 @@ const cordinate = response.body.features[0].center;
 console.log('Coordinates are '+cordinate);
 getTemps(cordinate);
 })
+
+
+console.log('Added 2 API till now');
